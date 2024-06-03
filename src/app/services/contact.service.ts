@@ -8,7 +8,7 @@ import { Contact } from '../models/contact.model';
 })
 export class ContactService {
 
-  private apiUrl = 'http://localhost:8080/api/contacts/create';
+  private apiUrl = 'https://demo-production-6c66.up.railway.app/api/contacts/create';
   constructor(private http: HttpClient) { }
 
   createContact(contact: Contact): Observable<void> {

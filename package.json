@@ -2,6 +2,7 @@
   "name": "contact-form-app",
   "version": "0.0.0",
   "scripts": {
+    "install:prod": "npm install --omit=dev",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
